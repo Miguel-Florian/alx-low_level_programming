@@ -4,7 +4,7 @@ Project done during **Full Stack Software Engineering studies** at **Alx Africa 
 
 ## Technologies
 * Scripts written in Bash 5.0.17(1)
-* C files are compiled using `gcc 4.8.4`
+* C files are compiled using `gcc 11.3.0`
 * Tested on Ubuntu 20.04 LTS
 
 ## Files
