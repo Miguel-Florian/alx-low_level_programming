@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i;
-	int b
 	for (i = 122; i > 96; i--)
 	{
 		putchar(i);
