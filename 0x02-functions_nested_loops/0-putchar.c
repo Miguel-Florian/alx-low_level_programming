@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int c,t;
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int c, t;	
 
 	t = sizeof(str) / sizeof(int);
 	for (c = 0; c < t; c++)
