@@ -1,9 +1,13 @@
 #include "main.h"
 
 /** 
- * add function, adds two integers @a and @b
+ * add -  adds two integers and returns the value 
  *
- * Return his value
+ * @a : first number 
+ *
+ * @b : second number
+ *
+ * Return : add first number and second number
  *
  */ 
 
