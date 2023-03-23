@@ -1,6 +1,6 @@
 # More functions, more nested loops
 
-Project done during ** Software Engineering** at **Alx Africa School**. It aims to learn about nested loops in **C language**.
+Project done during **Software Engineering** at **Alx Africa School**. It aims to learn about nested loops in **C language**.
 
 ## Technologies
 * C files are compiled using `gcc 11.3.0`
