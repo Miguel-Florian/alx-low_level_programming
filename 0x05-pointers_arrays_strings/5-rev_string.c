@@ -5,10 +5,9 @@
  * @s: input string
  * Return: no return
  */
-
 void rev_string(char *s)
 {
-	int cpt=0, i, j;
+	int cpt = 0, i, j;
 	char *chaine, tmp;
 
 	while (count >= 0)
@@ -21,9 +20,9 @@ void rev_string(char *s)
 	}
 	chaine = s;
 
-	for (i = 0; i < (cpt-=1); i++)
+	for (i = 0; i < (cpt - 1); i++)
 	{
-		for ( j = i+1; j > 0; j--)
+		for (j = i + 1; j > 0; j--)
 		{
 			tmp = *(chaine + j);
 			*(chaine + j) = *(chaine +(j-1));
