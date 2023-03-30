@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdio.h>
-
 /**
 * _strncpy - copies a string
 * @dest: pointer of string
@@ -8,7 +7,6 @@
 * @n: int
 * Return: @dest pointer of string 
 */
-
 int World_len(char *chaine){
     int i;
     for (i = 0; *chaine != '\0'; i++)
