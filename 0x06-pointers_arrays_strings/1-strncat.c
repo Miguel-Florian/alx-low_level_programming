@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdio.h>
+#include <string.h>
 /**
 * _strncpy - copies a string
 * @dest: pointer of string
@@ -7,15 +8,8 @@
 * @n: int
 * Return: @dest pointer of string 
 */
-int World_len(char *chaine){
-    int i;
-    for (i = 0; *chaine != '\0'; i++)
-        chaine++;
-    return i;
-}
-
 char *_strncat(char *dest, char *src, int n){
-    int dest_len = World_len(dest);
+    int dest_len = strlen(dest);
     int j;
 
     for (j = 0 ; j < n && src[j] != '\0' ; j++)
