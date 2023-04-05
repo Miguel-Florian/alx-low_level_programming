@@ -21,7 +21,7 @@ int _sqrt(int x, int root)
 /**
  * _sqrt_recursion - Returns the natural square root of a number.
  * @n: number 
- * Return:  a natural square root
+ * Return: number
  */
 int _sqrt_recursion(int n)
 {
