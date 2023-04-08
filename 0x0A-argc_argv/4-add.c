@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 /** main - adds positive number, followed by a new line.
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				sum += argv[i];
+				sum += atoi(argv[i]);
 			}
 		}
 		else
