@@ -1,44 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 /**
- * main - Prints coints left
- * @args: Paramater Entry
- * @argv: one number of argumets
- * Return: zero onone number of argumetsr
+ * main - adds positive numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-int main(int args, char *argv[])
+int main(int argc, char *argv[])
 {
-	int C, coins = 0;
+	int i, j, add = 0;
 
-	if (args != 2)
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		add += atoi(argv[i]);
 	}
-	C = atoi(argv[1]);
-	if (c < 0)
-	{
-		printf("0\n");
-		return (0);
-	}
-	for (; C >= 0;)
-	{
-		if (c >= 25)
-			c -= 25;
-		else if (c >= 10)
-			C -= 10;
-		else if (c >= 5)
-			C -= 5;
-		else if (c >= 2)
-			C -= 2;
-		else if (c >= 1)
-			c -= 1;
-		else
-			break;
-		coins += 1;
-	}
-	printf("%d\n", coins)
-		return (0);
+	printf("%d\n", add);
+	return (0);
 }
-
