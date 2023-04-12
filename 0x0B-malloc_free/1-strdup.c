@@ -14,7 +14,6 @@ char *_strdup(char *str)
 
 	if (str == NULL || ptr == NULL)
 	{
-		printf("insufficient memory was available");
 		return (NULL);
 	}
 
