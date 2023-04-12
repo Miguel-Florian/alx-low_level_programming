@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 /**
  * strdup - returns a pointer to newly allocated space in memory
