@@ -10,8 +10,7 @@ void *malloc_checked(unsigned int b)
 	char *array;
 	
 	array = malloc(b);
-	
-	if (array==NULL)
+	if (array == NULL)
 		exit(0);
 	else
 		return (array);
