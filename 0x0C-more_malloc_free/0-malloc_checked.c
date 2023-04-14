@@ -12,7 +12,6 @@ void *malloc_checked(unsigned int b)
 	array = malloc(b);
 	if (array == NULL)
 		exit(98);
-	else
-		return (array);
+	return (array);
 	/*printf((array == NULL) ? exit(0) : array);*/
 }
