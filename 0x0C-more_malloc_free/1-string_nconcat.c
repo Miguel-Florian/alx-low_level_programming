@@ -10,7 +10,7 @@
  *
  * Return: pointer to the allocated memory.
  */
-char *string_nconcat(char *s1, char *s2, unsigned int i)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *res;
 	unsigned int i;
