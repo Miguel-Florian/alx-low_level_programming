@@ -3,8 +3,8 @@
 #include <string.h>
 /**
  * string_nconcat - concatenes two strings
- * @s1: string
- * @s2: string
+ * @s1: 1st string
+ * @s2: 2nd string
  * @n: amount of bytes
  * 
  * Return: pointer
