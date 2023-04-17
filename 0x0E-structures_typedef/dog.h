@@ -1,7 +1,7 @@
 #ifndef _DOG_H_
-#define _DOG_H
+#define _DOG_H_
 /**
- * dog - define a struct dog
+ * dog - information about a  struct dog
  */
 typedef struct dog dog;
 /**
@@ -15,5 +15,5 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
 #endif
