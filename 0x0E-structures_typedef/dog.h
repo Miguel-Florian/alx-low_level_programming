@@ -1,9 +1,9 @@
 #ifndef _DOG_H_
 #define _DOG_H
 /**
- * dog - define a struct dog
+ * dog_t - define a struct dog
  */
-typedef struct dog dog;
+typedef struct dog dog_t;
 /**
  * dog - struct dog
  * @name: name of dog
