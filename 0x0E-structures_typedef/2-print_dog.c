@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * print_dog - pritns a dog struct
+ * print_dog - print information about a dog struct
  * @d: struct of dog
  *
  * Return: no return
