@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include "dog.h"
-
 /**
 * _strlen - returns the length of a string
 * @s: string
 *
 * Return: int
 */
-
 int _strlen(char *s)
 {
 		int i = 0;
@@ -19,7 +17,6 @@ int _strlen(char *s)
 
 		return (i);
 }
-
 /**
 * _strcpy - copies the string from src to dest
 * @dest: destination string
@@ -52,7 +49,7 @@ char *_strcpy(char *dest, char *src)
 * @age: age of the dog
 * @owner: owner of the dog
 *
-* Return: pointer to the new dog, NULL if not
+* Return: struct dog, NULL if not
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
