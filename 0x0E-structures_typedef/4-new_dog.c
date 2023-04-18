@@ -63,7 +63,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(ptr_dog);
 		return (NULL);
 	}
-	ptr_dog->owner = malloc((wordCount(owner) + 1) * sizeof(char);
+	ptr_dog->owner = malloc((wordCount(owner) + 1) * sizeof(char));
 	ptr_dog->name = malloc((wordCount(name) + 1) * sizeof(char));
 	
 	if(ptr_dog->name == NULL || ptr_dog->owner == NULL)
