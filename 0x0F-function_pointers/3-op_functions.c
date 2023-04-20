@@ -21,7 +21,6 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
 * op_mul - Returns the product of two integers.
 * @a: The first number.
@@ -49,7 +48,7 @@ int op_div(int a, int b)
 * @a: The first number.
 * @b: The second number.
 *
-* Return: The remainder of the division of a by b.
+* Return: The remainder of the division of a by b
 */
 int op_mod(int a, int b)
 {
