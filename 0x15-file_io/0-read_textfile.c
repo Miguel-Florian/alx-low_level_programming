@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * read_textfile - reads a text and prints it to the POSIX standard output
  * @filename: filename
